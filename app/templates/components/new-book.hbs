@@ -1,0 +1,25 @@
+{{#if addNewBook}}
+<p> For Admin use:</p>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">title</label>
+        {{input value=title id="title"}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image"}}
+      </div>
+
+      <button {{action 'saveBook'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'bookFormShow'}}>New Book</button>
+{{/if}}
