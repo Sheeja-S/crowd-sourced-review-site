@@ -5,7 +5,8 @@
 
  <ul>
   {{#each model.books as |book|}}
-     {{book-tile book=book}}
+  {{book-tile book=book}}
+  {{book-popularity book}}
   {{/each}}
 </ul>
 

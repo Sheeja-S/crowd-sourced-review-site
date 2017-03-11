@@ -1,8 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  model()
-  {
-    return this.store.findRecord('book');
-  }
+  sortBy: ['rating:desc'],
+  sortedReviews: Ember.computed.sort('book.reviews', 'sortBy'),
 });
