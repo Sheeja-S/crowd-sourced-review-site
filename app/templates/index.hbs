@@ -4,10 +4,10 @@
  List of Books :
 
  <ul>
-  {{#each model as |book|}}
+  {{#each model.books as |book|}}
      {{book-tile book=book}}
   {{/each}}
 </ul>
 
-
+For Admin use only:
 {{new-book saveBook="saveBook" book=book}}

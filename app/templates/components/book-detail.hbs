@@ -1,1 +1,13 @@
-author : {{book.author}}
+
+ <img src={{book.image}}>
+ <br>
+ author : {{book.author}}
+
+ <br>
+
+ <h2> Reviews </h2>
+<ul>
+  {{#each book.reviews as |review|}}
+    {{review-tile review=review}}
+  {{/each}}
+</ul>
