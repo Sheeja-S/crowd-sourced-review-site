@@ -7,8 +7,18 @@
   {{#each model.books as |book|}}
   {{book-tile book=book}}
   {{book-popularity book}}
+  <button {{action 'addToList' book}}>Add to Favorite-list</button>
   {{/each}}
 </ul>
+<br>
+<br>
+List of favorite books:
 
+{{display-list book=book}}
+
+
+
+<br>
+<br>
 For Admin use only:
 {{new-book saveBook="saveBook" book=book}}

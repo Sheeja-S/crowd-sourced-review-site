@@ -1,11 +1,12 @@
 
  <img src={{book.image}}>
  <br>
- author : {{book.author}}
+ Author : {{book.author}}
  <br>
  <br>
 
  <h2> Reviews </h2>
+
 <ul>
   {{#each sortedReviews as |review|}}
     {{review-tile review=review}}
