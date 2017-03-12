@@ -1,0 +1,111 @@
+#heading
+{
+  text-align: center;
+  color: black;
+  font-family: Chalkduster;
+  font-style: bold;
+}
+
+#subheadings
+{
+    font-family: Chalkduster;
+    margin-left: 10%;
+    color: #5baf24;
+}
+
+#listing1
+{
+    font-family: Chalkduster;
+    color: #5baf24;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+#pic
+{
+  margin-left: 40%;
+  margin-right: 60%;
+}
+
+.favs
+{
+  font-family: Chalkduster;
+}
+
+.booklist
+{
+  font-family: Chalkduster;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+#likes
+{
+  margin-left: 20%;
+}
+
+.glyphicon
+{
+  color: #b70517;
+}
+
+#fav
+{
+  border: solid;
+  border-color: #e5205f;
+  background-color: #edc0ce;
+  margin-left: 30%;
+  margin-top: 1%;
+}
+
+#list2
+{
+  color: #e5205f;
+  margin-left: 10%;
+  font-size: 15px;
+}
+
+#new
+{
+  margin-left: 80%;
+}
+
+h4
+{
+  font-family: Chalkduster;
+  margin-left: 70%;
+}
+
+#info
+{
+  font-family: Chalkduster;
+  font-size: 15px;
+  margin-left: 20%;
+  font-size: 25px;
+}
+.reviews
+{
+  font-family: Chalkduster;
+  color: #ea17e7;
+  margin-left: 10%;
+}
+
+#revbut
+{
+  color:green;
+  margin-left: 45%;
+}
+
+#pic
+{
+  width:20%;
+  height:20%;
+  border-style: dashed;
+  border-width: thick;
+  border-spacing: auto;
+}
+body
+{
+background-image : url('images/crumpled.jpg');
+background-size: 100%;
+}

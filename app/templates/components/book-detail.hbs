@@ -1,11 +1,11 @@
 
- <img src={{book.image}}>
+ <img id=pic src={{book.image}}>
  <br>
- Author : {{book.author}}
+ <div id=info>Author : {{book.author}}</div>
  <br>
  <br>
 
- <h2> Reviews </h2>
+ <h2 id=listing1> Reviews </h2>
 
 <ul>
   {{#each sortedReviews as |review|}}

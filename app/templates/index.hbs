@@ -1,18 +1,18 @@
 <br>
 <br>
 
- List of Books :
+ <h3 id=listing1>List of Books :</h3>
 
  <ul>
   {{#each model.books as |book|}}
   {{book-tile book=book}}
-  {{book-popularity book}}
-  <button {{action 'addToList' book}}>Add to Favorite-list</button>
+  <div id=likes>{{book-popularity book}}</div>
+  <button id=fav {{action 'addToList' book}}>Add to Favorite-list</button>
   {{/each}}
 </ul>
 <br>
 <br>
-List of favorite books:
+<h3 id=listing1>List of favorite books:</h3>
 
 {{display-list book=book}}
 
@@ -20,5 +20,5 @@ List of favorite books:
 
 <br>
 <br>
-For Admin use only:
+<h4>For Admin use only:</h4>
 {{new-book saveBook="saveBook" book=book}}
