@@ -4,14 +4,16 @@
  <h3 id=listing1>List of Books :</h3>
 
  <ul>
-  {{#each model.books as |book|}}
-  {{book-tile book=book}}
-  <div id=likes>{{book-popularity book}}</div>
-  <button id=fav {{action 'addToList' book}}>Add to Favorite-list</button>
-  {{/each}}
-</ul>
-<br>
-<br>
+    {{#each model.books as |book|}}
+     {{book-tile book=book}}
+  <div id=likes>
+     {{book-popularity book}}
+  </div>
+    <button id=fav {{action 'addToList' book}}>Add to Favorite-list</button>
+    {{/each}}
+ </ul>
+          <br>
+          <br>
 <h3 id=listing1>List of favorite books:</h3>
 
 {{display-list book=book}}
